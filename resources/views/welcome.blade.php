@@ -18,7 +18,7 @@
             font-weight: 200;
             height: 100vh;
             margin: 0;
-            background-image: url("https://images.unsplash.com/photo-1468779036391-52341f60b55d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1521&q=80");
+            /* background-image: '/public/logo.png'; */
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -82,12 +82,12 @@
 
     <div class="content">
         <div class="title m-b-md">
-            {{config('settings.system_title')}}
+            Document Management System
         </div>
 
         <div class="links">
             <blockquote>
-                {{$quotes}}
+                for the Office of Vice-Mayor and Sangguniang Bayan
             </blockquote>
         </div>
     </div>
